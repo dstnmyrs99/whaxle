@@ -22,7 +22,7 @@ h1{
 .square{
   height: 22%;
   width: 22%;
-  background-color: brown;
+  background-color: palegreen;
   margin: 3%;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@ h1{
   width: 100%;
   position: relative;
   top: 135px;
-  transition: all 1.3s ease-in-out ;
+  transition: all 2.5s ease-in-out ;
 }
 .visible{
   transform: translateY(-130px);
