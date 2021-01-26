@@ -9,7 +9,7 @@ function Field() {
     <div className="field">
         <h3>{score}</h3>
       {playField.map((block, index) => {
-          return <Square key={index} setScore={setScore} score={score}/>
+          return <Square key={index} setScore={setScore} score={score} setPlayField={setPlayField}/>
       })}
     </div>
   );
