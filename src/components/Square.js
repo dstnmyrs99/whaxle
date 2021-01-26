@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import '../App.css';
 import pic from '../images/axle.JPG';
 
-function Square() {
+function Square({score, setScore}) {
     const [isVisible, setIsVisible] = useState('');
     const handleClick = (e)=>{
         setIsVisible('');
+        setScore(score += Math.floor(Math.random()*100));
+
 
     }
     useEffect(() => {
